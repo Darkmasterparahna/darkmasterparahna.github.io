@@ -1,6 +1,6 @@
 .main-title{
     height: 300px;
-    background-color: #333;
+    background-color: black;
 }
 .title-text{
     color: white;
@@ -9,13 +9,9 @@
     margin: 0;
 }
 .title{
+    height: 300px;
+    background-color: black;
     text-align: center;
-    background-color: lightgreen;
-    padding-top: 20px;
-    padding-bottom: 15px;
-    height: 50px;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 .menu-bar{
     height: 50px;
@@ -47,7 +43,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 li {
     float: left;
@@ -61,5 +57,33 @@ li a {
 }
 li a:hover:not(.active) {
     background-color: #111;
+}
+.description{
+    background-color: black;
+    margin-top: 25px;
+    width: 95%;
+    margin-left: 25px;
+    height: 350px;
+    border-radius: 50px
+}
+.desc{
+    color: white;
+    height: fit-content;
+    width: 200px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border: inline-block;
+    float: right;
+    font-size: 20px;
+}
+.index-image{
+    width: 300px;
+    height: 250px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    border-radius: 50px;
+    margin-left: left;
 }
 
