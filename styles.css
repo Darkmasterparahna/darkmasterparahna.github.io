@@ -1,22 +1,41 @@
 .main-title{
     height: 300px;
     background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .title-text{
     color: white;
-    padding-top: 150px;
-    padding-left: 50px;
-    margin: 0;
+    text-align: center;
+    padding-top: 100px;
+
+    width: 40%;
+    border: inline-block;
+    float: left;
+}
+.title-text-p{
+    padding-top: 100px;
+    margin-top: 0;
+    color: white;
+    background-color: black;
 }
 .title{
     height: 300px;
-    background-color: black;
+    background-color: white;
     text-align: center;
+}
+.title-image{
+    height: 100%;
+    float: right;
+    padding-left: 50px;
+    padding-right: 25px;
+    border-radius: 25px;
 }
 .menu-bar{
     height: 50px;
     width: 100%;
-    background-color: white;
+    
 }
 .about-container{
     display: inline-block;
