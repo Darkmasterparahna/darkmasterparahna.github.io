@@ -16,7 +16,7 @@
 .menu-bar{
     height: 50px;
     width: 100%;
-    background-color: black;
+    background-color: white;
 }
 .about-container{
     display: inline-block;
@@ -43,20 +43,22 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: white;
 }
 li {
     float: left;
 }
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
 }
 .description{
     background-color: black;
