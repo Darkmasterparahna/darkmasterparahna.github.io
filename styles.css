@@ -12,13 +12,14 @@ html{
     color: white;
     text-align: center;
     padding-top: 100px;
-
+    height: 60%;
     width: 40%;
     border: inline-block;
     float: left;
 }
 .title-text-p{
     padding-top: 100px;
+    height: fit-content;
     margin-top: 0;
     color: white;
     background-color: black;
@@ -113,7 +114,7 @@ li a:hover:not(.active) {
 .legal-rights{
     margin-left: 60px;
     background-color: black;
-    margin-top: 25px;
+    margin-top: 50px;
     border-radius: 30px;
     color: white;
     overflow: hidden;
@@ -149,8 +150,11 @@ li a:hover:not(.active) {
     float: right;
 }
 .process{
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
 }
 .sentence-text{
     color: white;
@@ -159,7 +163,7 @@ li a:hover:not(.active) {
     margin: 0;
 }
 .p-image{
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 50px;
 }
@@ -167,31 +171,7 @@ li a:hover:not(.active) {
     font-size: 25px;
     text-align:center;
 }
-.grey{
-    padding: center;
-    font-size: 25px;
-    background-color: black;
-    color: white;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 50px;
-}
-.green{
-    margin-left: 250px;
-    margin-right: 250px;
-    font-size: 25px;
-    background-color: green;
-    color: white;
-    border-radius: 25px;
-}
-.red{
-    margin-left: 250px;
-    font-size: 25px;
-    background-color: darkred;
-    color: white;
-    border-radius: 25px;
-    margin-right: 250px;
-}
+
 .goals{
     background-color: black;
     border-radius: 25px;
@@ -230,4 +210,42 @@ li a:hover:not(.active) {
     color: white;
     font-size: 12px;
 }
-
+.process-s-explanation{
+    background-color: black;
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    border-radius: 25px;
+}
+.sentences{
+    margin-left: 60px;
+    background-color: black;
+    margin-top: 50px;
+    border-radius: 30px;
+    color: white;
+    overflow: hidden;
+    width: 90%;
+    text-align: center;
+    font-size: 22px;
+}
+.ycja-sentences{
+    height: fit-content;
+    width: 40%;
+    padding: 15px;
+    padding-left: 25px;
+    border: inline-block;
+    font-size: 20px;
+    float: left;
+}
+.adult-sentences{
+    height: fit-content;
+    width: 40%;
+    padding: 15px;
+    padding-left: 25px;
+    border: inline-block;
+    font-size: 20px;
+    
+}
+.bottom{
+    padding-top: 850px;
+}
