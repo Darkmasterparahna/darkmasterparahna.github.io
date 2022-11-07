@@ -42,8 +42,7 @@ html{
     
 }
 .about-container{
-    display: inline-block;
-    float: left;
+    border: inline-block;
     font-size: 20px;
     padding-bottom: 25px;
     margin-top: 25px;
@@ -54,6 +53,14 @@ html{
     text-align: center;
     overflow: auto;
     background-color: lightblue;
+}
+.about-image{
+    float: right;
+    margin-top: 25px;
+    margin-left: 25px;
+    width:55%;
+    display: inline-block;
+    
 }
 .image{
     margin-top: 25px;
