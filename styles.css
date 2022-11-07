@@ -249,3 +249,11 @@ li a:hover:not(.active) {
 .bottom{
     padding-top: 850px;
 }
+
+.goal-b{
+    color: white;
+    height: 25px;
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+}
