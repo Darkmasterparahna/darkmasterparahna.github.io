@@ -42,7 +42,6 @@ html{
     
 }
 .about-container{
-    border: inline-block;
     font-size: 20px;
     padding-bottom: 25px;
     margin-top: 25px;
@@ -51,15 +50,12 @@ html{
     height: fit-content;
     width: 40%;
     text-align: center;
-    overflow: auto;
     background-color: lightblue;
+    float:right;
 }
 .about-image{
-    float: right;
-    margin-top: 25px;
-    margin-left: 25px;
-    width:55%;
-    display: inline-block;
+    width: auto;
+    height: 150px;
     
 }
 .image{
@@ -263,4 +259,14 @@ li a:hover:not(.active) {
     padding: 25px;
     font-size: 20px;
     text-align: center;
+}
+.youth-rights{
+    text-align: center;
+    background-color: lightblue;
+    padding: 25px;
+    padding-top: 20px;
+    margin: 25px;
+    width: 50%;
+    border-radius: 25px;
+    font-size: 20px;
 }
